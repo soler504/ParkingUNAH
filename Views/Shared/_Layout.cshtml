@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - ParkingUNAH</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/parking.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />    
     <link rel="stylesheet" href="~/ParkingUNAH.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/parking.css" asp-append-version="true" />
 </head>
 <body>
     <header>
@@ -18,13 +18,11 @@
         </nav>
     </header>
 
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-
-    <footer class="footer-navbar border-top footer text-muted">
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+    
+    <footer class="footer-navbar border-top footer">
         <div class="container texto-footer-navbar texto-footer">
             &copy; 2025 Beta 1.0
         </div>

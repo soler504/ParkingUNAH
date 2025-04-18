@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BZhlXyyg3CbXT2Ojw1kBlPrz3b3LQS3RA80HQwBwPFA=",
+  "Hash": "4Odo63cGbA2zqIHIWNY/ik4m24alsFlsJ3U60YUu2qA=",
   "Source": "ParkingUNAH",
   "BasePath": "_content/ParkingUNAH",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "lkkuqi32iu",
-      "Integrity": "pVXz4mu1+9woDceSl3AF5WAuoglsT/o+nfPax/jwoaI=",
+      "Fingerprint": "ga403prkuv",
+      "Integrity": "SFNL/s6PgpuImfd7vQE9wk0BJlrxaji0gZCo6qKPslM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\parking.css"
@@ -178,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "mpyigms19s",
-      "Integrity": "xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=",
+      "Fingerprint": "ozu22stjof",
+      "Integrity": "ZMvmWDSU4zY1Z29EQGm5Mubfz/YxF4hiReGqx84o4tA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
@@ -1373,7 +1373,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2207"
+          "Value": "1765"
         },
         {
           "Name": "Content-Type",
@@ -1381,11 +1381,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pVXz4mu1+9woDceSl3AF5WAuoglsT/o+nfPax/jwoaI=\""
+          "Value": "\"SFNL/s6PgpuImfd7vQE9wk0BJlrxaji0gZCo6qKPslM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 00:03:31 GMT"
+          "Value": "Fri, 18 Apr 2025 20:57:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1395,12 +1395,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pVXz4mu1+9woDceSl3AF5WAuoglsT/o+nfPax/jwoaI="
+          "Value": "sha256-SFNL/s6PgpuImfd7vQE9wk0BJlrxaji0gZCo6qKPslM="
         }
       ]
     },
     {
-      "Route": "css/parking.lkkuqi32iu.css",
+      "Route": "css/parking.ga403prkuv.css",
       "AssetFile": "C:\\Users\\csoler\\Desktop\\UNAH\\ParkingUNAH\\ParkingUNAH\\wwwroot\\css\\parking.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1410,7 +1410,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2207"
+          "Value": "1765"
         },
         {
           "Name": "Content-Type",
@@ -1418,11 +1418,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pVXz4mu1+9woDceSl3AF5WAuoglsT/o+nfPax/jwoaI=\""
+          "Value": "\"SFNL/s6PgpuImfd7vQE9wk0BJlrxaji0gZCo6qKPslM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 00:03:31 GMT"
+          "Value": "Fri, 18 Apr 2025 20:57:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1432,7 +1432,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lkkuqi32iu"
+          "Value": "ga403prkuv"
         },
         {
           "Name": "label",
@@ -1440,7 +1440,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pVXz4mu1+9woDceSl3AF5WAuoglsT/o+nfPax/jwoaI="
+          "Value": "sha256-SFNL/s6PgpuImfd7vQE9wk0BJlrxaji0gZCo6qKPslM="
         }
       ]
     },
@@ -1783,7 +1783,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "204136"
+          "Value": "215356"
         },
         {
           "Name": "Content-Type",
@@ -1791,11 +1791,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=\""
+          "Value": "\"ZMvmWDSU4zY1Z29EQGm5Mubfz/YxF4hiReGqx84o4tA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 22:14:18 GMT"
+          "Value": "Fri, 18 Apr 2025 16:42:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1805,7 +1805,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM="
+          "Value": "sha256-ZMvmWDSU4zY1Z29EQGm5Mubfz/YxF4hiReGqx84o4tA="
         }
       ]
     },
@@ -2056,7 +2056,7 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap.mpyigms19s.css",
+      "Route": "lib/bootstrap/dist/css/bootstrap.ozu22stjof.css",
       "AssetFile": "C:\\Users\\csoler\\Desktop\\UNAH\\ParkingUNAH\\ParkingUNAH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2066,7 +2066,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "204136"
+          "Value": "215356"
         },
         {
           "Name": "Content-Type",
@@ -2074,11 +2074,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=\""
+          "Value": "\"ZMvmWDSU4zY1Z29EQGm5Mubfz/YxF4hiReGqx84o4tA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 22:14:18 GMT"
+          "Value": "Fri, 18 Apr 2025 16:42:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2088,7 +2088,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mpyigms19s"
+          "Value": "ozu22stjof"
         },
         {
           "Name": "label",
@@ -2096,7 +2096,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM="
+          "Value": "sha256-ZMvmWDSU4zY1Z29EQGm5Mubfz/YxF4hiReGqx84o4tA="
         }
       ]
     },

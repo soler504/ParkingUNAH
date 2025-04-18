@@ -1,15 +1,17 @@
-html,
-body {
-    width: 100%;
+html {
     height: 100%;
+    overflow: hidden;
+}
+
+body {
+    height: 100%;
+    overflow: auto;
     margin: 0;
-    position: absolute;
     display: flex;
     flex-direction: column;
     background: rgb(24, 20, 20);
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
     font-family: 'Roboto';
 }
 
@@ -33,82 +35,47 @@ body {
     text-align: right;
 }
 
-.dashboard {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
+.entry-way {
+    border-bottom: 2px dashed yellow;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
-.parking-manager {
-    height: 100%;
-    background: rgb(25, 25, 25);
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-}
-
-.new-car-entry {
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
-    gap: 3px;
-}
-
-    .new-car-entry div {
-        background: rgb(27, 118, 19);
-        width: 20%;
-        height: 20px;
-        padding: 10px;
-        text-align: center;
-        line-height: 20px;
-        cursor: pointer;
-    }
-
-
-.parking-container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    margin-left: 50px;
-}
-
-.parking-slots-holder {
-    width: 80%;
-    height: 20%;
-    display: flex;
-}
-
-.parking-slot {
-    width: 20%;
-    height: 100%;
-    border-right: 2px solid rgb(24, 20, 20);
-    border-left: 2px solid rgb(24, 20, 20);
+.card {
     background: rgb(31, 31, 40);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 14px;
     color: rgb(240, 240, 236);
 }
 
-.parking-way {
-    width: 80%;
-    height: 20%;
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
-#entry-way {
-    border-bottom: 2px dashed yellow;
+.contenedor-izquierdo {
+    width: 30%;
+}
+
+.contenedor-derecho {
+    width: 70%;
+    padding-left: 10px;
+}
+
+.button-car-entry {
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.sign-parking {
+    background: rgb(45,42,42);
+    color: white;
+    padding: 20px;
+    font-size: 14px;
 }
 
 .outside {
-    width: 200px;
-    height: 40%;
+    height: 90%;
     border-top: 2px solid rgb(33, 74, 113);
     border-bottom: 2px solid rgb(33, 74, 113);
     background: rgb(43, 43, 55);
@@ -117,4 +84,25 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 12px;
+}
+
+.flex-container {
+    list-style: none;
+    display: flex;
+    background: rgb(25, 25, 25);
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+    .wrap li {
+        background: rgb(27, 118, 19);
+    }
+
+.flex-item {
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    text-align: center;
 }
