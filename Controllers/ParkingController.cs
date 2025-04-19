@@ -1,12 +1,23 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ParkingUNAH.Features.Parking.Contracts;
 
 namespace ParkingUNAH.Controllers
 {
-    public class ParkingController : Controller
+    [Route("parqueo")]
+    public class ParkingController(IParkingService _parkingService) : Controller
     {
-        public IActionResult Index()
+        [HttpGet, Route("sector/{sectorId}")]
+        public async Task<IActionResult> EstacionamientoSector([FromRoute] int sectorId)
         {
-            return View();
+            var estacionamientoPorSector = await _parkingService
+                .ObtenerEstacionamientoPorSector(sectorId);
+
+            if (estacionamientoPorSector == null)
+            {
+                return NotFound();
+            }
+
+            return View(estacionamientoPorSector);
         }
     }
 }

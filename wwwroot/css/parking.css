@@ -106,3 +106,9 @@ body {
     color: white;
     text-align: center;
 }
+
+.container-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

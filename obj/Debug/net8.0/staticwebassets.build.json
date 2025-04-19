@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4Odo63cGbA2zqIHIWNY/ik4m24alsFlsJ3U60YUu2qA=",
+  "Hash": "0qu5goy+Fm7BkxpZ4DaFdc02S/TuXb6fSCSmVC4pANA=",
   "Source": "ParkingUNAH",
   "BasePath": "_content/ParkingUNAH",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ga403prkuv",
-      "Integrity": "SFNL/s6PgpuImfd7vQE9wk0BJlrxaji0gZCo6qKPslM=",
+      "Fingerprint": "c18714nkx3",
+      "Integrity": "kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\parking.css"
@@ -122,12 +122,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\csoler\\Desktop\\UNAH\\ParkingUNAH\\ParkingUNAH\\wwwroot\\images\\map.jpeg",
+      "Identity": "C:\\Users\\csoler\\Desktop\\UNAH\\ParkingUNAH\\ParkingUNAH\\wwwroot\\images\\map.png",
       "SourceId": "ParkingUNAH",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\csoler\\Desktop\\UNAH\\ParkingUNAH\\ParkingUNAH\\wwwroot\\",
       "BasePath": "_content/ParkingUNAH",
-      "RelativePath": "images/map#[.{fingerprint}]?.jpeg",
+      "RelativePath": "images/map#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -136,11 +136,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "o1emf2kred",
-      "Integrity": "nKc1O+YrC6htI4wXVB+0w7xUfUOS6WsoRllEO0Jg2RM=",
+      "Fingerprint": "21uicy8tny",
+      "Integrity": "hnwfl4c6p4VcipICC9/riGRIf0sPI+0csfsiAMe3tko=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\map.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\map.png"
     },
     {
       "Identity": "C:\\Users\\csoler\\Desktop\\UNAH\\ParkingUNAH\\ParkingUNAH\\wwwroot\\js\\site.js",
@@ -1363,6 +1363,51 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/parking.c18714nkx3.css",
+      "AssetFile": "C:\\Users\\csoler\\Desktop\\UNAH\\ParkingUNAH\\ParkingUNAH\\wwwroot\\css\\parking.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1866"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 22:24:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c18714nkx3"
+        },
+        {
+          "Name": "label",
+          "Value": "css/parking.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0="
+        }
+      ]
+    },
+    {
       "Route": "css/parking.css",
       "AssetFile": "C:\\Users\\csoler\\Desktop\\UNAH\\ParkingUNAH\\ParkingUNAH\\wwwroot\\css\\parking.css",
       "Selectors": [],
@@ -1373,7 +1418,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1765"
+          "Value": "1866"
         },
         {
           "Name": "Content-Type",
@@ -1381,11 +1426,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SFNL/s6PgpuImfd7vQE9wk0BJlrxaji0gZCo6qKPslM=\""
+          "Value": "\"kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 20:57:36 GMT"
+          "Value": "Fri, 18 Apr 2025 22:24:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1395,52 +1440,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SFNL/s6PgpuImfd7vQE9wk0BJlrxaji0gZCo6qKPslM="
-        }
-      ]
-    },
-    {
-      "Route": "css/parking.ga403prkuv.css",
-      "AssetFile": "C:\\Users\\csoler\\Desktop\\UNAH\\ParkingUNAH\\ParkingUNAH\\wwwroot\\css\\parking.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1765"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"SFNL/s6PgpuImfd7vQE9wk0BJlrxaji0gZCo6qKPslM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 20:57:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ga403prkuv"
-        },
-        {
-          "Name": "label",
-          "Value": "css/parking.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-SFNL/s6PgpuImfd7vQE9wk0BJlrxaji0gZCo6qKPslM="
+          "Value": "sha256-kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0="
         }
       ]
     },
@@ -1609,8 +1609,8 @@
       ]
     },
     {
-      "Route": "images/map.jpeg",
-      "AssetFile": "C:\\Users\\csoler\\Desktop\\UNAH\\ParkingUNAH\\ParkingUNAH\\wwwroot\\images\\map.jpeg",
+      "Route": "images/map.21uicy8tny.png",
+      "AssetFile": "C:\\Users\\csoler\\Desktop\\UNAH\\ParkingUNAH\\ParkingUNAH\\wwwroot\\images\\map.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1619,56 +1619,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "84259"
+          "Value": "125569"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"nKc1O+YrC6htI4wXVB+0w7xUfUOS6WsoRllEO0Jg2RM=\""
+          "Value": "\"hnwfl4c6p4VcipICC9/riGRIf0sPI+0csfsiAMe3tko=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 00:11:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-nKc1O+YrC6htI4wXVB+0w7xUfUOS6WsoRllEO0Jg2RM="
-        }
-      ]
-    },
-    {
-      "Route": "images/map.o1emf2kred.jpeg",
-      "AssetFile": "C:\\Users\\csoler\\Desktop\\UNAH\\ParkingUNAH\\ParkingUNAH\\wwwroot\\images\\map.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "84259"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"nKc1O+YrC6htI4wXVB+0w7xUfUOS6WsoRllEO0Jg2RM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 00:11:00 GMT"
+          "Value": "Fri, 18 Apr 2025 22:19:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1678,15 +1641,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "o1emf2kred"
+          "Value": "21uicy8tny"
         },
         {
           "Name": "label",
-          "Value": "images/map.jpeg"
+          "Value": "images/map.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-nKc1O+YrC6htI4wXVB+0w7xUfUOS6WsoRllEO0Jg2RM="
+          "Value": "sha256-hnwfl4c6p4VcipICC9/riGRIf0sPI+0csfsiAMe3tko="
+        }
+      ]
+    },
+    {
+      "Route": "images/map.png",
+      "AssetFile": "C:\\Users\\csoler\\Desktop\\UNAH\\ParkingUNAH\\ParkingUNAH\\wwwroot\\images\\map.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "125569"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hnwfl4c6p4VcipICC9/riGRIf0sPI+0csfsiAMe3tko=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 22:19:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hnwfl4c6p4VcipICC9/riGRIf0sPI+0csfsiAMe3tko="
         }
       ]
     },
@@ -6469,7 +6469,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 22:15:34 GMT"
+          "Value": "Sat, 19 Apr 2025 02:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6514,7 +6514,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 22:15:34 GMT"
+          "Value": "Sat, 19 Apr 2025 02:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6559,7 +6559,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 22:15:34 GMT"
+          "Value": "Sat, 19 Apr 2025 02:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6596,7 +6596,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 22:15:34 GMT"
+          "Value": "Sat, 19 Apr 2025 02:54:36 GMT"
         },
         {
           "Name": "Cache-Control",

@@ -1,28 +1,23 @@
-﻿@{
-    ViewData["Title"] = "PARKING MAP";
+﻿@using ParkingUNAH.Features.Parking.Dtos
+@{
+    ViewData["Title"] = Model[0].DescripcionSector;
 }
+
+@model List<EstacionamientoSectorDto>
 
 <div class="contenedor">
     <div class="contenedor-izquierdo">
-        <div class="sign-parking text-center">Parqueo Edificio 1</div>
+        <div class="sign-parking text-center">
+            @Model[0].DescripcionSector
+        </div>
+
         <ul class="flex-container wrap">
-            <li class="flex-item">1</li>
-            <li class="flex-item">2</li>
-            <li class="flex-item">3</li>
-            <li class="flex-item">4</li>
-            <li class="flex-item">5</li>
-            <li class="flex-item">6</li>
-            <li class="flex-item">7</li>
-            <li class="flex-item">8</li>
-            <li class="flex-item">1</li>
-            <li class="flex-item">2</li>
-            <li class="flex-item">3</li>
-            <li class="flex-item">4</li>
-            <li class="flex-item">5</li>
-            <li class="flex-item">6</li>
-            <li class="flex-item">7</li>
-            <li class="flex-item">8</li>
-            <li class="flex-item">8</li>
+            @{
+                foreach (var estacionamiento in Model)
+                {
+                    <li class="flex-item">@estacionamiento.Posicion</li>
+                }
+            }
         </ul>
     </div>
     <div class="contenedor-derecho">

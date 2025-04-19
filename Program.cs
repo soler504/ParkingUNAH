@@ -1,4 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using ParkingUNAH.Features.Parking.Contracts;
+using ParkingUNAH.Features.Parking.Services;
+using ParkingUNAH.Infrastructure.ParkingDb;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<ParkingDbContext>(x =>
+x.UseSqlServer(builder.Configuration.GetConnectionString("ParkingDb")));
+
+builder.Services.AddScoped<IParkingService, ParkingService>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

@@ -1,6 +1,6 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using ParkingUNAH.Models;
+using System.Diagnostics;
 
 namespace ParkingUNAH.Controllers
 {
