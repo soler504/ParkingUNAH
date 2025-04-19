@@ -8,9 +8,11 @@ namespace ParkingUNAH.Infrastructure.ParkingDb
     {
         public DbSet<Estacionamiento>? Estacionamiento { get; set; }
         public DbSet<Sector>? Sector { get; set; }
+        public DbSet<Usuario>? Usuarios { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.ApplyConfiguration(new UsuarioMap());
             modelBuilder.ApplyConfiguration(new SectorMap());
             modelBuilder.ApplyConfiguration(new EstacionamientoMap());
             base.OnModelCreating(modelBuilder);
