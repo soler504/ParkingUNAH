@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0qu5goy+Fm7BkxpZ4DaFdc02S/TuXb6fSCSmVC4pANA=",
+  "Hash": "OBE5SbOcHV4mQz4g6Az/pOtxXtmF4FTOyvTcNQSRKfQ=",
   "Source": "ParkingUNAH",
   "BasePath": "_content/ParkingUNAH",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c18714nkx3",
-      "Integrity": "kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0=",
+      "Fingerprint": "kt2sdd8qzi",
+      "Integrity": "SH4B8JGbz0NaNNJ3Tw+D35yNxYFxOIPRdvLJ1OCsNs4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\parking.css"
@@ -1363,51 +1363,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/parking.c18714nkx3.css",
-      "AssetFile": "C:\\Users\\csoler\\Desktop\\UNAH\\ParkingUNAH\\ParkingUNAH\\wwwroot\\css\\parking.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1866"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 22:24:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c18714nkx3"
-        },
-        {
-          "Name": "label",
-          "Value": "css/parking.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0="
-        }
-      ]
-    },
-    {
       "Route": "css/parking.css",
       "AssetFile": "C:\\Users\\csoler\\Desktop\\UNAH\\ParkingUNAH\\ParkingUNAH\\wwwroot\\css\\parking.css",
       "Selectors": [],
@@ -1418,7 +1373,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1866"
+          "Value": "1913"
         },
         {
           "Name": "Content-Type",
@@ -1426,11 +1381,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0=\""
+          "Value": "\"SH4B8JGbz0NaNNJ3Tw+D35yNxYFxOIPRdvLJ1OCsNs4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 22:24:59 GMT"
+          "Value": "Sat, 19 Apr 2025 16:57:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1440,7 +1395,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0="
+          "Value": "sha256-SH4B8JGbz0NaNNJ3Tw+D35yNxYFxOIPRdvLJ1OCsNs4="
+        }
+      ]
+    },
+    {
+      "Route": "css/parking.kt2sdd8qzi.css",
+      "AssetFile": "C:\\Users\\csoler\\Desktop\\UNAH\\ParkingUNAH\\ParkingUNAH\\wwwroot\\css\\parking.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1913"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SH4B8JGbz0NaNNJ3Tw+D35yNxYFxOIPRdvLJ1OCsNs4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 16:57:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kt2sdd8qzi"
+        },
+        {
+          "Name": "label",
+          "Value": "css/parking.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SH4B8JGbz0NaNNJ3Tw+D35yNxYFxOIPRdvLJ1OCsNs4="
         }
       ]
     },

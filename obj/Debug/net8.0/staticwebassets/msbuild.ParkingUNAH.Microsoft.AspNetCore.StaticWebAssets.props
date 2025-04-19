@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>c18714nkx3</Fingerprint>
-      <Integrity>kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0=</Integrity>
+      <Fingerprint>kt2sdd8qzi</Fingerprint>
+      <Integrity>SH4B8JGbz0NaNNJ3Tw+D35yNxYFxOIPRdvLJ1OCsNs4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\parking.css'))</OriginalItemSpec>

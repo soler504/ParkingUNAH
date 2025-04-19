@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/ParkingUNAH/css/parking.c18714nkx3.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\parking.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"c18714nkx3"},{"Name":"integrity","Value":"sha256-kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0="},{"Name":"label","Value":"_content/ParkingUNAH/css/parking.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1866"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 22:24:59 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ParkingUNAH/css/parking.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\parking.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1866"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 22:24:59 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SH4B8JGbz0NaNNJ3Tw\u002BD35yNxYFxOIPRdvLJ1OCsNs4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1913"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022SH4B8JGbz0NaNNJ3Tw\u002BD35yNxYFxOIPRdvLJ1OCsNs4=\u0022"},{"Name":"Last-Modified","Value":"Sat, 19 Apr 2025 16:57:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ParkingUNAH/css/parking.kt2sdd8qzi.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\parking.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kt2sdd8qzi"},{"Name":"integrity","Value":"sha256-SH4B8JGbz0NaNNJ3Tw\u002BD35yNxYFxOIPRdvLJ1OCsNs4="},{"Name":"label","Value":"_content/ParkingUNAH/css/parking.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1913"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022SH4B8JGbz0NaNNJ3Tw\u002BD35yNxYFxOIPRdvLJ1OCsNs4=\u0022"},{"Name":"Last-Modified","Value":"Sat, 19 Apr 2025 16:57:57 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ParkingUNAH/css/site.c2tiyv64ts.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>

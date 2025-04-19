@@ -85,51 +85,6 @@
       ]
     },
     {
-      "Route": "css/parking.c18714nkx3.css",
-      "AssetFile": "css/parking.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1866"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 22:24:59 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c18714nkx3"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0="
-        },
-        {
-          "Name": "label",
-          "Value": "css/parking.css"
-        }
-      ]
-    },
-    {
       "Route": "css/parking.css",
       "AssetFile": "css/parking.css",
       "Selectors": [],
@@ -144,7 +99,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1866"
+          "Value": "1913"
         },
         {
           "Name": "Content-Type",
@@ -152,17 +107,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0=\""
+          "Value": "\"SH4B8JGbz0NaNNJ3Tw+D35yNxYFxOIPRdvLJ1OCsNs4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 22:24:59 GMT"
+          "Value": "Sat, 19 Apr 2025 16:57:57 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0="
+          "Value": "sha256-SH4B8JGbz0NaNNJ3Tw+D35yNxYFxOIPRdvLJ1OCsNs4="
+        }
+      ]
+    },
+    {
+      "Route": "css/parking.kt2sdd8qzi.css",
+      "AssetFile": "css/parking.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1913"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SH4B8JGbz0NaNNJ3Tw+D35yNxYFxOIPRdvLJ1OCsNs4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 16:57:57 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kt2sdd8qzi"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SH4B8JGbz0NaNNJ3Tw+D35yNxYFxOIPRdvLJ1OCsNs4="
+        },
+        {
+          "Name": "label",
+          "Value": "css/parking.css"
         }
       ]
     },

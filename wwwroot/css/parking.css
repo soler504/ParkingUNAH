@@ -96,9 +96,14 @@ body {
     flex-wrap: wrap;
 }
 
-    .wrap li {
-        background: rgb(27, 118, 19);
-    }
+.isTaken {
+    background: rgb(146, 18, 18);
+}
+
+.isNotTaken {
+    background: rgb(27, 118, 19);
+}
+
 
 .flex-item {
     padding: 10px;
