@@ -15,7 +15,11 @@
             @{
                 foreach (var estacionamiento in Model)
                 {
-                    <li class="flex-item">@estacionamiento.Posicion</li>
+                    <li id="parking-space-@estacionamiento.EstacionamientoId"
+                        class="flex-item @(estacionamiento.EstaOcupado ? "isTaken" : "isNotTaken")"
+                        onclick="modificarEstadoEstacionamiento(@estacionamiento.EstacionamientoId)">
+                        @estacionamiento.Posicion
+                    </li>
                 }
             }
         </ul>
@@ -115,3 +119,29 @@
         </div>
     </div>
 </div>
+
+@section Scripts {
+    <script>
+        function modificarEstadoEstacionamiento(estacionamientoId) {
+            $.ajax({
+                type: 'put',
+                url:`/parqueo/cambiarEstadoEstacionamiento/${estacionamientoId}`,
+                contentType: 'application/json; charset=utf-8',
+                dataType: 'json',
+                data: {"estacionamientoId": estacionamientoId},
+                success: function(response) {
+                    if(response.ok){
+                        const parkingSpace = document.getElementById(`parking-space-${estacionamientoId}`);
+
+                        parkingSpace.className = response.data.estaOcupado ?
+                            "flex-item isTaken" :
+                            "flex-item isNotTaken";
+                    }
+                },
+                error: function(response) {
+                    console.log(response);
+                }
+            });
+        }
+    </script>
+}
