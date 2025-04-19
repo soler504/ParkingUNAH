@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using ParkingUNAH.Features.Parking.Contracts;
 
 namespace ParkingUNAH.Controllers
 {
     [Route("parqueo")]
+    [Authorize]
     public class ParkingController(IParkingService _parkingService) : Controller
     {
         [HttpGet, Route("sector/{sectorId}")]

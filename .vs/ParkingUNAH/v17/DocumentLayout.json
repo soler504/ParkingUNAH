@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\jufer\\source\\repos\\ParkingUNAH\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB88BD5F-1E91-067E-B5BC-5694721A00B9}|ParkingUNAH.csproj|c:\\users\\jufer\\source\\repos\\parkingunah\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BB88BD5F-1E91-067E-B5BC-5694721A00B9}|ParkingUNAH.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BB88BD5F-1E91-067E-B5BC-5694721A00B9}|ParkingUNAH.csproj|c:\\users\\jufer\\source\\repos\\parkingunah\\controllers\\parkingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB88BD5F-1E91-067E-B5BC-5694721A00B9}|ParkingUNAH.csproj|solutionrelative:controllers\\parkingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB88BD5F-1E91-067E-B5BC-5694721A00B9}|ParkingUNAH.csproj|c:\\users\\jufer\\source\\repos\\parkingunah\\wwwroot\\css\\parking.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{BB88BD5F-1E91-067E-B5BC-5694721A00B9}|ParkingUNAH.csproj|solutionrelative:wwwroot\\css\\parking.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{BB88BD5F-1E91-067E-B5BC-5694721A00B9}|ParkingUNAH.csproj|c:\\users\\jufer\\source\\repos\\parkingunah\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB88BD5F-1E91-067E-B5BC-5694721A00B9}|ParkingUNAH.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB88BD5F-1E91-067E-B5BC-5694721A00B9}|ParkingUNAH.csproj|c:\\users\\jufer\\source\\repos\\parkingunah\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,8 +23,8 @@
       "RelativeMoniker": "D:0:0:{BB88BD5F-1E91-067E-B5BC-5694721A00B9}|ParkingUNAH.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB88BD5F-1E91-067E-B5BC-5694721A00B9}|ParkingUNAH.csproj|c:\\users\\jufer\\source\\repos\\parkingunah\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB88BD5F-1E91-067E-B5BC-5694721A00B9}|ParkingUNAH.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB88BD5F-1E91-067E-B5BC-5694721A00B9}|ParkingUNAH.csproj|c:\\users\\jufer\\source\\repos\\parkingunah\\wwwroot\\css\\parking.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BB88BD5F-1E91-067E-B5BC-5694721A00B9}|ParkingUNAH.csproj|solutionrelative:wwwroot\\css\\parking.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB88BD5F-1E91-067E-B5BC-5694721A00B9}|ParkingUNAH.csproj|c:\\users\\jufer\\source\\repos\\parkingunah\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,6 +106,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ParkingController.cs",
+              "DocumentMoniker": "C:\\Users\\jufer\\source\\repos\\ParkingUNAH\\Controllers\\ParkingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ParkingController.cs",
+              "ToolTip": "C:\\Users\\jufer\\source\\repos\\ParkingUNAH\\Controllers\\ParkingController.cs",
+              "RelativeToolTip": "Controllers\\ParkingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T22:22:36.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\jufer\\source\\repos\\ParkingUNAH\\Views\\Login\\Index.cshtml",
@@ -119,20 +132,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\jufer\\source\\repos\\ParkingUNAH\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\jufer\\source\\repos\\ParkingUNAH\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-19T22:14:04.576Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "parking.css",
               "DocumentMoniker": "C:\\Users\\jufer\\source\\repos\\ParkingUNAH\\wwwroot\\css\\parking.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\parking.css",
@@ -140,21 +153,7 @@
               "RelativeToolTip": "wwwroot\\css\\parking.css",
               "ViewState": "AgIAAIsAAAAAAAAAAAAYwKUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-19T22:04:25.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\jufer\\source\\repos\\ParkingUNAH\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\jufer\\source\\repos\\ParkingUNAH\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-19T21:56:11.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T22:04:25.895Z"
             },
             {
               "$type": "Document",
@@ -164,7 +163,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\jufer\\source\\repos\\ParkingUNAH\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-19T06:16:56.548Z",
               "EditorCaption": ""
@@ -177,7 +176,7 @@
               "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
               "ToolTip": "C:\\Users\\jufer\\source\\repos\\ParkingUNAH\\Controllers\\LoginController.cs",
               "RelativeToolTip": "Controllers\\LoginController.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAQwDgAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwDgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-19T05:55:38.506Z",
               "EditorCaption": ""
@@ -192,8 +191,7 @@
               "RelativeToolTip": "Models\\LoginViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T05:54:13.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T05:54:13.641Z"
             }
           ]
         },

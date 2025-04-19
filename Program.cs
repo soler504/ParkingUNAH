@@ -19,7 +19,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddAuthentication("ParkingUNAHAuth")
     .AddCookie("ParkingUNAHAuth", options =>
     {
-        options.LoginPath = "/Login/Login";
+        options.LoginPath = "/Login";
         options.LogoutPath = "/Login/Logout";
         options.Cookie.Name = "ParkingUNAHAuth";
     });
