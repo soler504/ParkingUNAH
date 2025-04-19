@@ -12,8 +12,24 @@
 <body>
     <header>
         <nav class="footer-navbar border-bottom">
-            <div class="container texto-footer-navbar texto-navbar">
-                <a style="color: white; text-decoration: none" asp-controller="Home" asp-action="Index">UNAH-CORTÉS PARKING MAP</a>
+            <div class="navbar-container">
+                <div class="navbar-left"></div>
+
+                <div class="navbar-center">
+                    <a href="/" style="color: white; text-decoration: none;">
+                        UNAH-CORTÉS PARKING MAP
+                    </a>
+                </div>
+
+                @if (User.Identity?.IsAuthenticated ?? false)
+                {
+                    <div class="navbar-right">
+                        <p class="user-greeting">Hello, @User.Identity.Name</p>
+                        <form asp-controller="Login" asp-action="Logout" method="post">
+                            <button type="submit" class="logout-button">Logout</button>
+                        </form>
+                    </div>
+                }
             </div>
         </nav>
     </header>

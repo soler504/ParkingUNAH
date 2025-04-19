@@ -19,6 +19,11 @@ namespace ParkingUNAH.Controllers
 
         public IActionResult Index()
         {
+            if (User.Identity?.IsAuthenticated ?? false)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
             return View();
         }
 
@@ -28,22 +33,29 @@ namespace ParkingUNAH.Controllers
             var user = _usuarioService.ObtenerUsuario(model.Username, model.Password);
             if (user != null)
             {
-                /*
+                
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.Name, model.Username),
                 };
 
-                var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                var identity = new ClaimsIdentity(claims, "ParkingUNAHAuth");
                 var principal = new ClaimsPrincipal(identity);
 
-                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
-                */
+                await HttpContext.SignInAsync("ParkingUNAHAuth", principal);
+                
                 return RedirectToAction("Index", "Home");
             }
 
-            ModelState.AddModelError(string.Empty, "Usuario o contraseña incorrectos");
+            ModelState.AddModelError(string.Empty, "Incorrect username or password");
             return View("Index", model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Logout(LoginViewModel model)
+        {
+            await HttpContext.SignOutAsync();
+            return RedirectToAction("Index", "Login");
         }
     }
 }

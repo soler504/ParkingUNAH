@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Alhg43tx20O7qloe6ZVmKS4irGWtohLhzjG0UNhLpcI=",
+  "Hash": "tjLXNBU5hx61g4fOj067GIDwAKRI6rDNPJLErcEzyeA=",
   "Source": "ParkingUNAH",
   "BasePath": "_content/ParkingUNAH",
   "Mode": "Default",
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c18714nkx3",
-      "Integrity": "kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0=",
+      "Fingerprint": "rr4s00amzb",
+      "Integrity": "2dhsFDK5Nzq+u7zRGes/pCH9uO1pYRblRG6QoXgQiUM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\parking.css"
@@ -1466,51 +1466,6 @@
       ]
     },
     {
-      "Route": "css/parking.c18714nkx3.css",
-      "AssetFile": "C:\\Users\\jufer\\source\\repos\\ParkingUNAH\\wwwroot\\css\\parking.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1866"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 05:33:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c18714nkx3"
-        },
-        {
-          "Name": "label",
-          "Value": "css/parking.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0="
-        }
-      ]
-    },
-    {
       "Route": "css/parking.css",
       "AssetFile": "C:\\Users\\jufer\\source\\repos\\ParkingUNAH\\wwwroot\\css\\parking.css",
       "Selectors": [],
@@ -1521,7 +1476,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1866"
+          "Value": "2828"
         },
         {
           "Name": "Content-Type",
@@ -1529,11 +1484,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0=\""
+          "Value": "\"2dhsFDK5Nzq+u7zRGes/pCH9uO1pYRblRG6QoXgQiUM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 05:33:42 GMT"
+          "Value": "Sat, 19 Apr 2025 22:07:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1543,7 +1498,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0="
+          "Value": "sha256-2dhsFDK5Nzq+u7zRGes/pCH9uO1pYRblRG6QoXgQiUM="
+        }
+      ]
+    },
+    {
+      "Route": "css/parking.rr4s00amzb.css",
+      "AssetFile": "C:\\Users\\jufer\\source\\repos\\ParkingUNAH\\wwwroot\\css\\parking.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2828"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2dhsFDK5Nzq+u7zRGes/pCH9uO1pYRblRG6QoXgQiUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 22:07:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rr4s00amzb"
+        },
+        {
+          "Name": "label",
+          "Value": "css/parking.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2dhsFDK5Nzq+u7zRGes/pCH9uO1pYRblRG6QoXgQiUM="
         }
       ]
     },

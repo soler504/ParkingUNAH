@@ -16,6 +16,14 @@ builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddAuthentication("ParkingUNAHAuth")
+    .AddCookie("ParkingUNAHAuth", options =>
+    {
+        options.LoginPath = "/Login/Login";
+        options.LogoutPath = "/Login/Logout";
+        options.Cookie.Name = "ParkingUNAHAuth";
+    });
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -35,6 +43,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Login}/{action=Index}/{id?}");
 
 app.Run();

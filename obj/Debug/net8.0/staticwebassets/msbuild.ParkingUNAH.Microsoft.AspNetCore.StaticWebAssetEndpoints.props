@@ -12,17 +12,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"g4i5td9jve"},{"Name":"integrity","Value":"sha256-AMwiLcqL0pQGBV\u002BdIk5KkDI5kS8bChhNu\u002BySViQB76M="},{"Name":"label","Value":"_content/ParkingUNAH/css/login.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"591"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022AMwiLcqL0pQGBV\u002BdIk5KkDI5kS8bChhNu\u002BySViQB76M=\u0022"},{"Name":"Last-Modified","Value":"Sat, 19 Apr 2025 06:01:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ParkingUNAH/css/parking.c18714nkx3.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\parking.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"c18714nkx3"},{"Name":"integrity","Value":"sha256-kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0="},{"Name":"label","Value":"_content/ParkingUNAH/css/parking.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1866"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 19 Apr 2025 05:33:42 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ParkingUNAH/css/parking.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\parking.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1866"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022kDqixZP24Jzpg03cPoYqlfNRM3YjrxwW/qUPQyoLT/0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 19 Apr 2025 05:33:42 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2dhsFDK5Nzq\u002Bu7zRGes/pCH9uO1pYRblRG6QoXgQiUM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2828"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00222dhsFDK5Nzq\u002Bu7zRGes/pCH9uO1pYRblRG6QoXgQiUM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 19 Apr 2025 22:07:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ParkingUNAH/css/parking.rr4s00amzb.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\parking.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rr4s00amzb"},{"Name":"integrity","Value":"sha256-2dhsFDK5Nzq\u002Bu7zRGes/pCH9uO1pYRblRG6QoXgQiUM="},{"Name":"label","Value":"_content/ParkingUNAH/css/parking.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2828"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00222dhsFDK5Nzq\u002Bu7zRGes/pCH9uO1pYRblRG6QoXgQiUM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 19 Apr 2025 22:07:13 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ParkingUNAH/css/site.c2tiyv64ts.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
