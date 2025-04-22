@@ -11,112 +11,53 @@
             @Model[0].DescripcionSector
         </div>
 
-        <ul class="flex-container wrap">
+        <div class="flex-container wrap">
             @{
                 foreach (var estacionamiento in Model)
                 {
-                    <li id="parking-space-@estacionamiento.EstacionamientoId"
-                        class="flex-item @(estacionamiento.EstaOcupado ? "isTaken" : "isNotTaken")"
-                        onclick="modificarEstadoEstacionamiento(@estacionamiento.EstacionamientoId)">
+                    <div id="parking-space-@estacionamiento.EstacionamientoId"
+                         class="flex-item @(estacionamiento.EstaOcupado ? "isTaken" : "isNotTaken")"
+                         onclick="modificarEstadoEstacionamiento(@estacionamiento.EstacionamientoId)">
                         @estacionamiento.Posicion
-                    </li>
+                    </div>
                 }
             }
-        </ul>
+        </div>
     </div>
     <div class="contenedor-derecho">
-        <div class="row">
-            <div class="col-sm-2">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">1</h5>
-                    </div>
+        @foreach (var estacionamiento in Model)
+        {
+            if ((estacionamiento.Posicion - 1) % 5 == 0 || estacionamiento.Posicion == 1)
+            {     
+                @:<div class="row">
+            }
+
+           <div class="col-sm-2">
+                <div class="card custom-card text-center">
+                    <img id="image-parking-@estacionamiento.EstacionamientoId" src="~/images/car.png" alt="car"
+                        class="custom-img @(estacionamiento.EstaOcupado ? "" : "hide-objects")">
+
+                    <h5 id="no-posicion-@estacionamiento.EstacionamientoId" 
+                        class="card-title mb-0 @(estacionamiento.EstaOcupado ? "hide-objects" : "")">
+                        @estacionamiento.Posicion
+                    </h5>
                 </div>
             </div>
 
-            <div class="col-sm-2">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">2</h5>
+            if (estacionamiento.Posicion % 5 == 0 || estacionamiento.Posicion == Model.Count)
+            {
+                @:</div>
+
+                <div class="row">
+                    <div class="col-sm-10">
+                        <div class="entry-way"></div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="outside">Entry / Exit</div>
                     </div>
                 </div>
-            </div>
-
-            <div class="col-sm-2">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">3</h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-2">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">4</h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-2">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">5</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-sm-10">
-                <div class="entry-way"></div>
-            </div>
-            <div class="col-sm-2">
-                <div class="outside">Entry / Exit</div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-sm-2">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">6</h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-2">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">7</h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-2">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">8</h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-2">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">9</h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-2">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">10</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
+            }
+        }
     </div>
 </div>
 
@@ -132,10 +73,22 @@
                 success: function(response) {
                     if(response.ok){
                         const parkingSpace = document.getElementById(`parking-space-${estacionamientoId}`);
+                        const image = document.getElementById(`image-parking-${estacionamientoId}`);
+                        const numeroPosicion = document.getElementById(`no-posicion-${estacionamientoId}`);
 
-                        parkingSpace.className = response.data.estaOcupado ?
-                            "flex-item isTaken" :
-                            "flex-item isNotTaken";
+                        if(response.data.estaOcupado){
+                            image.className = "custom-img";
+                            parkingSpace.className = "flex-item isTaken";
+                            numeroPosicion.className = "card-title mb-0 hide-objects";
+                        }else{
+                            image.className = "custom-img rotar-imagen";
+                            parkingSpace.className = "flex-item isNotTaken";
+                            
+                            setTimeout(function(){
+                                numeroPosicion.className = "card-title mb-0";
+                                image.className = "custom-img hide-objects";
+                            }, 1000)
+                        }                        
                     }
                 },
                 error: function(response) {
