@@ -2,7 +2,9 @@
 
 @{
     ViewData["Title"] = "Login";
+    Layout = null;
 }
+
 
 <link rel="stylesheet" href="@Url.Content("~/css/login.css")" />
 
@@ -19,12 +21,12 @@
             <input asp-for="Password" type="password" />
             <span asp-validation-for="Password" class="text-danger"></span>
         </div>
-        <button type="submit">Entrar</button>
-        <div class="text-danger">
-            @if (!ViewData.ModelState.IsValid)
-            {
-                <p>Incorrect username or password.</p>
-            }
-        </div>
+        <button type="submit">Login</button>
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <div class="text-danger">
+                <p>Invalid username or password</p>
+            </div>
+        }
     </form>
 </div>
