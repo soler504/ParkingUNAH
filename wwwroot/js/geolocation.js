@@ -20,11 +20,16 @@
                 dataType: 'json',
                 data: JSON.stringify({ "latitud": latitud, "longitud": longitud }),
                 success: function (response) {
-                    const params = new URLSearchParams(window.location.search);
-                    const sectorId = params.get("sectorId");
+                    if (response.ok) {
+                        const params = new URLSearchParams(window.location.search);
+                        const sectorId = params.get("sectorId");
 
-                    if (response.ok && sectorId == undefined && sectorId == null) {
-                        window.location.href = response.message;
+                        if (sectorId == undefined && sectorId == null) {
+                            window.location.href = response.message;
+                        }
+                        else if (sectorId != response.data) {
+                            window.location.href = response.message;
+                        }
                     }
                 },
                 error: function (response) {
