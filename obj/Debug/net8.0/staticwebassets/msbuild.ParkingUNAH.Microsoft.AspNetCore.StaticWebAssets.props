@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4ij7lv6e1k</Fingerprint>
-      <Integrity>fE+MIR1imOsvqbBzmp/SeFhfwrN3C+ZLmvTmZX4Ukqs=</Integrity>
+      <Fingerprint>8wq1yysf7d</Fingerprint>
+      <Integrity>mBenAMPP4NGIF0MtZKtQLccb0MERNr3iPniGGAsXR50=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\parking.css'))</OriginalItemSpec>
@@ -120,8 +120,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>pvam6mew24</Fingerprint>
-      <Integrity>lZ5g0c0X1QQz901RBj3rkOkvOWAje4XkQwv1W75vt/4=</Integrity>
+      <Fingerprint>0hnarj9ww5</Fingerprint>
+      <Integrity>rLP2UDy2Cz/QLv2bKliJJcx6lvcXkaanPsV2zStVlpM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\geolocation.js'))</OriginalItemSpec>

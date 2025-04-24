@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "87iA+miufUAYSf0Rdv3lIBjMyKXSgiW+hyqhPXAcS4Y=",
+  "Hash": "FDHelZQnd1qzpy8eNsFk7v0WWnz9byxsVs46pR7k+Do=",
   "Source": "ParkingUNAH",
   "BasePath": "_content/ParkingUNAH",
   "Mode": "Default",
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4ij7lv6e1k",
-      "Integrity": "fE+MIR1imOsvqbBzmp/SeFhfwrN3C+ZLmvTmZX4Ukqs=",
+      "Fingerprint": "8wq1yysf7d",
+      "Integrity": "mBenAMPP4NGIF0MtZKtQLccb0MERNr3iPniGGAsXR50=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\parking.css"
@@ -199,8 +199,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "pvam6mew24",
-      "Integrity": "lZ5g0c0X1QQz901RBj3rkOkvOWAje4XkQwv1W75vt/4=",
+      "Fingerprint": "0hnarj9ww5",
+      "Integrity": "rLP2UDy2Cz/QLv2bKliJJcx6lvcXkaanPsV2zStVlpM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\geolocation.js"
@@ -1508,7 +1508,7 @@
       ]
     },
     {
-      "Route": "css/parking.4ij7lv6e1k.css",
+      "Route": "css/parking.8wq1yysf7d.css",
       "AssetFile": "C:\\Users\\csoler\\Desktop\\UNAH\\ParkingUNAH\\ParkingUNAH\\wwwroot\\css\\parking.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1518,7 +1518,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3614"
+          "Value": "3311"
         },
         {
           "Name": "Content-Type",
@@ -1526,11 +1526,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fE+MIR1imOsvqbBzmp/SeFhfwrN3C+ZLmvTmZX4Ukqs=\""
+          "Value": "\"mBenAMPP4NGIF0MtZKtQLccb0MERNr3iPniGGAsXR50=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 02:34:27 GMT"
+          "Value": "Thu, 24 Apr 2025 05:29:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1540,7 +1540,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4ij7lv6e1k"
+          "Value": "8wq1yysf7d"
         },
         {
           "Name": "label",
@@ -1548,7 +1548,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fE+MIR1imOsvqbBzmp/SeFhfwrN3C+ZLmvTmZX4Ukqs="
+          "Value": "sha256-mBenAMPP4NGIF0MtZKtQLccb0MERNr3iPniGGAsXR50="
         }
       ]
     },
@@ -1563,7 +1563,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3614"
+          "Value": "3311"
         },
         {
           "Name": "Content-Type",
@@ -1571,11 +1571,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fE+MIR1imOsvqbBzmp/SeFhfwrN3C+ZLmvTmZX4Ukqs=\""
+          "Value": "\"mBenAMPP4NGIF0MtZKtQLccb0MERNr3iPniGGAsXR50=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 02:34:27 GMT"
+          "Value": "Thu, 24 Apr 2025 05:29:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1585,7 +1585,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fE+MIR1imOsvqbBzmp/SeFhfwrN3C+ZLmvTmZX4Ukqs="
+          "Value": "sha256-mBenAMPP4NGIF0MtZKtQLccb0MERNr3iPniGGAsXR50="
         }
       ]
     },
@@ -1918,6 +1918,51 @@
       ]
     },
     {
+      "Route": "js/geolocation.0hnarj9ww5.js",
+      "AssetFile": "C:\\Users\\csoler\\Desktop\\UNAH\\ParkingUNAH\\ParkingUNAH\\wwwroot\\js\\geolocation.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1498"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rLP2UDy2Cz/QLv2bKliJJcx6lvcXkaanPsV2zStVlpM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 04:16:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0hnarj9ww5"
+        },
+        {
+          "Name": "label",
+          "Value": "js/geolocation.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rLP2UDy2Cz/QLv2bKliJJcx6lvcXkaanPsV2zStVlpM="
+        }
+      ]
+    },
+    {
       "Route": "js/geolocation.js",
       "AssetFile": "C:\\Users\\csoler\\Desktop\\UNAH\\ParkingUNAH\\ParkingUNAH\\wwwroot\\js\\geolocation.js",
       "Selectors": [],
@@ -1928,7 +1973,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1348"
+          "Value": "1498"
         },
         {
           "Name": "Content-Type",
@@ -1936,11 +1981,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lZ5g0c0X1QQz901RBj3rkOkvOWAje4XkQwv1W75vt/4=\""
+          "Value": "\"rLP2UDy2Cz/QLv2bKliJJcx6lvcXkaanPsV2zStVlpM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 03:43:48 GMT"
+          "Value": "Thu, 24 Apr 2025 04:16:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1950,52 +1995,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lZ5g0c0X1QQz901RBj3rkOkvOWAje4XkQwv1W75vt/4="
-        }
-      ]
-    },
-    {
-      "Route": "js/geolocation.pvam6mew24.js",
-      "AssetFile": "C:\\Users\\csoler\\Desktop\\UNAH\\ParkingUNAH\\ParkingUNAH\\wwwroot\\js\\geolocation.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1348"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"lZ5g0c0X1QQz901RBj3rkOkvOWAje4XkQwv1W75vt/4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 03:43:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pvam6mew24"
-        },
-        {
-          "Name": "label",
-          "Value": "js/geolocation.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-lZ5g0c0X1QQz901RBj3rkOkvOWAje4XkQwv1W75vt/4="
+          "Value": "sha256-rLP2UDy2Cz/QLv2bKliJJcx6lvcXkaanPsV2zStVlpM="
         }
       ]
     },
@@ -6778,7 +6778,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 00:41:59 GMT"
+          "Value": "Thu, 24 Apr 2025 05:25:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6823,7 +6823,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 00:41:59 GMT"
+          "Value": "Thu, 24 Apr 2025 05:25:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6868,7 +6868,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 00:41:59 GMT"
+          "Value": "Thu, 24 Apr 2025 05:25:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6905,7 +6905,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 00:41:59 GMT"
+          "Value": "Thu, 24 Apr 2025 05:25:23 GMT"
         },
         {
           "Name": "Cache-Control",

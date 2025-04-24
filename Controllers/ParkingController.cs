@@ -9,15 +9,15 @@ namespace ParkingUNAH.Controllers
     public class ParkingController(IParkingService _parkingService) : Controller
     {
         [HttpGet]
-        public async Task<IActionResult> EstacionamientoSector(int? sectorId)
+        public async Task<IActionResult> EstacionamientoSector(int sectorId)
         {
-            if (sectorId == 0)
+            if (sectorId <= 0)
             {
                 return NotFound();
             }
 
             var estacionamientos = await _parkingService
-                .ObtenerEstacionamientoPorSector(sectorId ?? 0);
+                .ObtenerEstacionamientoPorSector(sectorId);
 
             if (estacionamientos == null)
             {

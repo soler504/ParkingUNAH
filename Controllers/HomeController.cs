@@ -1,23 +1,18 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using ParkingUNAH.Features.Parking.Contracts;
 using ParkingUNAH.Models;
 using System.Diagnostics;
 
 namespace ParkingUNAH.Controllers
 {
     [Authorize]
-    public class HomeController : Controller
+    public class HomeController(IParkingService _parkingService) : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        public async Task<IActionResult> IndexAsync()
         {
-            _logger = logger;
-        }
-
-        public IActionResult Index()
-        {
-            return View();
+            var response = await _parkingService.ObtenerEstadisticasPorSector();
+            return View(response);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

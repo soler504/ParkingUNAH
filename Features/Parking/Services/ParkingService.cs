@@ -5,6 +5,7 @@ using ParkingUNAH.Features.Parking.Messages;
 using ParkingUNAH.Features.Parking.Queries;
 using ParkingUNAH.Infrastructure.Common.Dtos;
 using ParkingUNAH.Infrastructure.ParkingDb;
+using ParkingUNAH.Infrastructure.ParkingDb.Dtos;
 using ParkingUNAH.Infrastructure.ParkingDb.Entities;
 
 namespace ParkingUNAH.Features.Parking.Services
@@ -89,6 +90,21 @@ namespace ParkingUNAH.Features.Parking.Services
             catch (Exception ex)
             {
                 return ResponseDto<int>.Error(ex.Message);
+            }
+        }
+
+        public async Task<List<EstadisticasSectorDto>> ObtenerEstadisticasPorSector()
+        {
+            try
+            {
+                string query = QueryParking.query002;
+                var sectores = await _parkingDbContext!.EstadisticasSector!.FromSqlRaw(query).ToListAsync();
+                return sectores;
+            }
+            catch (Exception ex)
+            {
+                _ = ex.Message;
+                return [];
             }
         }
     }
