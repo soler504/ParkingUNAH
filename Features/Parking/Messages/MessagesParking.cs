@@ -4,5 +4,6 @@
     {
         public const string MS01 = "No se encontro ningún estacionamiento con el id {0}";
         public const string MS02 = "Ocurrió un error al cambiar el estado del estacionamiento";
+        public const string MS03 = "No se encontró ningún sector con las coordenadas detectadas";
     }
 }

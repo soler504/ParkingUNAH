@@ -8,5 +8,6 @@ namespace ParkingUNAH.Features.Parking.Contracts
     {
         Task<List<EstacionamientoSectorDto>> ObtenerEstacionamientoPorSector(int sectorId);
         Task<ResponseDto<Estacionamiento>> CambiarEstadoEstacionamiento(int estacionamientoId);
+        Task<ResponseDto<int>> ObtenerSectorPorCoordenadas(CoordenadasDto coordenadas);
     }
 }

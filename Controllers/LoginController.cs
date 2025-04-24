@@ -1,21 +1,14 @@
-﻿using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Authentication;
+﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
+using ParkingUNAH.Features.Usuario.Contracts;
 using ParkingUNAH.Models;
 using System.Security.Claims;
-using ParkingUNAH.Features.Usuario.Services;
-using ParkingUNAH.Features.Usuario.Contracts;
 
 namespace ParkingUNAH.Controllers
 {
-    public class LoginController : Controller
+    public class LoginController(IUsuarioService usuarioService) : Controller
     {
-        private readonly IUsuarioService _usuarioService;
-
-        public LoginController(IUsuarioService usuarioService)
-        {
-            _usuarioService = usuarioService;
-        }
+        private readonly IUsuarioService _usuarioService = usuarioService;
 
         public IActionResult Index()
         {
@@ -36,7 +29,7 @@ namespace ParkingUNAH.Controllers
                 
                 var claims = new List<Claim>
                 {
-                    new Claim(ClaimTypes.Name, model.Username),
+                    new(ClaimTypes.Name, model.Username),
                 };
 
                 var identity = new ClaimsIdentity(claims, "ParkingUNAHAuth");

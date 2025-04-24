@@ -12,7 +12,10 @@ namespace ParkingUNAH.Infrastructure.ParkingDb.Maps
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Codigo).HasColumnName("codigo").HasColumnType("varchar(100)");
             builder.Property(x => x.Descripcion).HasColumnName("descripcion").HasColumnType("varchar(100)");
-            builder.Property(x => x.Coordenadas).HasColumnName("coordenadas").HasColumnType("varchar(100)");
+            builder.Property(x => x.LatitudMin).HasColumnName("latitudMin").HasColumnType("numeric(18,6)");
+            builder.Property(x => x.LongitudMin).HasColumnName("longitudMin").HasColumnType("numeric(18,6)");
+            builder.Property(x => x.LatitudMax).HasColumnName("latitudMax").HasColumnType("numeric(18,6)");
+            builder.Property(x => x.LongitudMax).HasColumnName("longitudMax").HasColumnType("numeric(18,6)");
         }
     }
 }
